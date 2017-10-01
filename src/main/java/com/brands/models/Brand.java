@@ -1,4 +1,4 @@
-package models;
+package com.brands.models;
 
 import org.hibernate.validator.constraints.Length;
 

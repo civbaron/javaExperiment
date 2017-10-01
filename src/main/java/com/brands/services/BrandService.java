@@ -1,11 +1,9 @@
-package services;
+package com.brands.services;
 
 import java.util.LinkedList;
 import java.util.List;
-import models.Brand;
+import com.brands.models.Brand;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -27,7 +25,7 @@ public class BrandService {
         return _brandRepository.findOne(id);
     }
 
-    public void saveBrand(Brand brand){
-        _brandRepository.save(brand);
+    public Brand saveBrand(Brand brand){
+        return _brandRepository.save(brand);
     }
 }

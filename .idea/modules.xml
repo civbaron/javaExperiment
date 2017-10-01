@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/complete.iml" filepath="$PROJECT_DIR$/complete.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/complete_main.iml" filepath="$PROJECT_DIR$/.idea/modules/complete_main.iml" group="complete" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/complete_test.iml" filepath="$PROJECT_DIR$/.idea/modules/complete_test.iml" group="complete" />
+      <module fileurl="file://$PROJECT_DIR$/javaExperiment.iml" filepath="$PROJECT_DIR$/javaExperiment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaExperiment_main.iml" filepath="$PROJECT_DIR$/.idea/modules/javaExperiment_main.iml" group="javaExperiment" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javaExperiment_test.iml" filepath="$PROJECT_DIR$/.idea/modules/javaExperiment_test.iml" group="javaExperiment" />
     </modules>
   </component>
 </project>

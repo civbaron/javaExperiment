@@ -1,7 +1,7 @@
-package services;
+package com.brands.services;
 
 import org.springframework.data.repository.CrudRepository;
-import models.Brand;
+import com.brands.models.Brand;
 import org.springframework.stereotype.Component;
 
 @Component
