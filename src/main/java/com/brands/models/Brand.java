@@ -7,6 +7,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Null;
 
 @Entity
 public class Brand {
@@ -17,7 +18,7 @@ public class Brand {
     @NotNull
     private String name;
     @Length(min=5, max=255)
-    @NotNull
+    @Null
     private String description;
 
     public Brand (){}
